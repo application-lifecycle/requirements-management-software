@@ -35,6 +35,22 @@ class TestToolsCatalog(unittest.TestCase):
         self.assertEqual(len(recs), 5)
         self.assertEqual(recs[0]["id"], "strictdoc")
 
+    def test_index_html_prerenders_all_tools(self) -> None:
+        tools = rm_advisor.load_data()["tools"]
+        index_html = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
+        for tool in tools:
+            self.assertIn(f'data-id="{tool["id"]}"', index_html)
+
+    def test_sitemap_pages_exist(self) -> None:
+        sitemap = (ROOT / "docs" / "sitemap.xml").read_text(encoding="utf-8")
+        base = "https://application-lifecycle.github.io/requirements-management-software/"
+        for line in sitemap.splitlines():
+            line = line.strip()
+            if line.startswith("<loc>") and line.endswith("</loc>"):
+                url = line[len("<loc>") : -len("</loc>")]
+                rel = url.removeprefix(base) or "index.html"
+                self.assertTrue((ROOT / "docs" / rel).is_file(), f"Missing {rel}")
+
 
 if __name__ == "__main__":
     unittest.main()

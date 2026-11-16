@@ -13,6 +13,8 @@
 
 </div>
 
+![Requirements Management Software Directory Preview](docs/assets/preview.png)
+
 ---
 
 ## Why This Directory Exists
