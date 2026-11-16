@@ -1,0 +1,51 @@
+name: Submit a Requirements Management Tool
+description: Propose a new open-source or commercial requirements management tool for the directory.
+title: "[Tool]: "
+labels: ["tool-submission"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Tool Name
+      placeholder: e.g., StrictDoc
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Official Website
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: github
+    attributes:
+      label: GitHub Repository (optional)
+      placeholder: https://github.com/org/repo
+  - type: dropdown
+    id: license
+    attributes:
+      label: License Type
+      options:
+        - Open Source
+        - Freemium
+        - Commercial
+    validations:
+      required: true
+  - type: checkboxes
+    id: capabilities
+    attributes:
+      label: Key Capabilities
+      options:
+        - label: Traceability Matrix
+        - label: ReqIF Import/Export
+        - label: Baselines & Versioning
+        - label: Git Integration
+        - label: Test Case Linking
+  - type: textarea
+    id: notes
+    attributes:
+      label: Best For / Compliance Standards
+      description: Summarize who this tool is best for and any compliance standards (ISO 26262, IEC 62304, DO-178C, etc.).
+    validations:
+      required: true

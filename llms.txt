@@ -1,0 +1,26 @@
+# Requirements Management Software: Open Source Directory & Comparison Tool (2026)
+
+> Verified comparison of 22 open-source and commercial requirements management software tools, filterable by engineering job, ReqIF support, Git workflow, and compliance standards (Verified: 2026-11-16).
+
+## Summary
+This repository provides a structured JSON dataset (`tools.json`), a zero-dependency Python CLI (`rm_advisor.py`), and an interactive GitHub Pages directory (`docs/index.html`) to help engineering, product, and compliance teams evaluate and select requirements management software.
+
+## Top Tools by User Job
+- **Git-Native & Docs-as-Code (Open Source)**: StrictDoc (Apache-2.0, ReqIF + Web UI), Doorstop (LGPL-3.0, YAML in Git), Sphinx-Needs (MIT, ReqIF + Sphinx), TReqs (MIT, Markdown + VS Code).
+- **Regulated & Safety-Critical (ISO 26262, IEC 62304, DO-178C, FDA 21 CFR Part 11)**: Jama Connect, Siemens Polarion, PTC Codebeamer, IBM DOORS Next, Visure Requirements ALM, ReqView, MatrixALM, StrictDoc.
+- **Agile & DevOps Integrations**: R4J (Jira), Modern Requirements4DevOps (Azure DevOps), GitLab Requirements Management, Plane (Open Source), Redmine (Open Source).
+- **Systems Engineering & MBSE**: Valispace (Altium), Innoslate, Eclipse RMF (ProR, Open Source).
+
+## Quick CLI Usage
+- Filter open-source ReqIF tools: `python3 rm_advisor.py --license open-source --reqif`
+- Compare up to 3 tools: `python3 rm_advisor.py --compare strictdoc reqview jama-connect`
+- Guided recommendation: `python3 rm_advisor.py --recommend --workflow git-native --regulated --budget free`
+- Validate dataset: `python3 rm_advisor.py --validate`
+
+## Official Links
+- Interactive Web Directory: https://application-lifecycle.github.io/requirements-management-software/
+- Open Source Tools Guide: https://application-lifecycle.github.io/requirements-management-software/open-source-requirements-management.html
+- Git-Based Tools Guide: https://application-lifecycle.github.io/requirements-management-software/git-based-requirements-management.html
+- Compliance & Safety-Critical Guide: https://application-lifecycle.github.io/requirements-management-software/medical-and-automotive-requirements-tools.html
+- IBM DOORS Alternatives: https://application-lifecycle.github.io/requirements-management-software/doors-alternatives.html
+- GitHub Repository: https://github.com/application-lifecycle/requirements-management-software
