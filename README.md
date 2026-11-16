@@ -1,8 +1,8 @@
 <div align="center">
 
-# Requirements Management Software — Open Source Directory & Comparison Tool (2026)
+# Requirements Management Software: Open Source Directory & Comparison Tool (2026)
 
-**An unbiased, structured directory comparing 22 open-source and commercial requirements management software tools — filterable by engineering job, ReqIF support, Git workflow, compliance standards, and pricing.**
+**An unbiased, structured directory comparing 22 open-source and commercial requirements management software tools, filterable by engineering job, ReqIF support, Git workflow, compliance standards, and pricing.**
 
 [![Verified Tools](https://img.shields.io/badge/Verified_Tools-22_Active-1d4ed8?style=flat-square)](#-complete-requirements-management-software-directory-2026)
 [![Open Source](https://img.shields.io/badge/Open_Source-9_Tools-10b981?style=flat-square)](#-open-source-requirements-management-software)
@@ -107,10 +107,10 @@ Missing a requirements management tool or spotted outdated pricing/capabilities?
 
 1. Edit [`tools.json`](tools.json) and sync `docs/tools.json` (`cp tools.json docs/tools.json`).
 2. Run `python3 rm_advisor.py --validate` and `python3 -m unittest discover -s tests -v`.
-3. Open a Pull Request — see [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full schema.
+3. Open a Pull Request (see [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full schema).
 
 ---
 
 ## License
 
-MIT License — see [`LICENSE`](LICENSE).
+MIT License. See [`LICENSE`](LICENSE).

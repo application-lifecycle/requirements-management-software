@@ -15,7 +15,7 @@ body {
 
 .wrap {
   width: 100%;
-  max-width: 1200px;
+  max-width: var(--container);
   margin-inline: auto;
   padding-inline: var(--space-lg);
 }
@@ -546,6 +546,12 @@ a:hover {
   display: grid;
   grid-template-columns: minmax(0, 1.3fr) repeat(2, minmax(0, 1fr));
   gap: var(--space-xl);
+}
+
+.footer-head {
+  font-size: var(--text-md);
+  font-weight: 500;
+  margin: 0;
 }
 
 .footer-list {
