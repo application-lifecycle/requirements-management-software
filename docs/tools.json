@@ -250,7 +250,7 @@
         "web_ui": true
       },
       "compliance": ["ISO 26262", "IEC 62304", "DO-178C", "FDA 21 CFR Part 11"],
-      "best_for": "Teams wanting DOORS-style tabular traceability and ReqIF exchange without heavy enterprise server overhead."
+      "best_for": "Teams that need DOORS-style tabular traceability and ReqIF exchange on local or Git-backed JSON."
     },
     {
       "id": "jama-connect",
@@ -450,7 +450,7 @@
         "web_ui": true
       },
       "compliance": ["ASPICE", "ISO 26262"],
-      "best_for": "Engineering teams that want hierarchical requirements and suspect-link matrices without leaving Jira."
+      "best_for": "Engineering teams managing hierarchical requirements and suspect-link matrices inside Jira."
     },
     {
       "id": "matrixalm",
