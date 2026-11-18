@@ -23,4 +23,15 @@ This repository provides a structured JSON dataset (`tools.json`), a zero-depend
 - Git-Based Tools Guide: https://application-lifecycle.github.io/requirements-management-software/git-based-requirements-management.html
 - Compliance & Safety-Critical Guide: https://application-lifecycle.github.io/requirements-management-software/medical-and-automotive-requirements-tools.html
 - IBM DOORS Alternatives: https://application-lifecycle.github.io/requirements-management-software/doors-alternatives.html
+- Free Requirements Management Software: https://application-lifecycle.github.io/requirements-management-software/free-requirements-management-software.html
+- Agile, Jira & Azure DevOps Tools: https://application-lifecycle.github.io/requirements-management-software/agile-jira-azure-devops-requirements.html
+- Jama Connect Alternatives: https://application-lifecycle.github.io/requirements-management-software/jama-connect-alternatives.html
+- ReqIF Tools & Exchange: https://application-lifecycle.github.io/requirements-management-software/reqif-tools-and-converters.html
+- Traceability Matrix Tools: https://application-lifecycle.github.io/requirements-management-software/requirements-traceability-matrix-tools.html
+- Polarion vs Codebeamer: https://application-lifecycle.github.io/requirements-management-software/polarion-vs-codebeamer.html
+- StrictDoc vs Doorstop: https://application-lifecycle.github.io/requirements-management-software/strictdoc-vs-doorstop.html
+- Aerospace & Defense RM: https://application-lifecycle.github.io/requirements-management-software/aerospace-defense-requirements-tools.html
+- MBSE & SysML Tools: https://application-lifecycle.github.io/requirements-management-software/mbse-and-sysml-requirements-tools.html
+- Startup RM Tools: https://application-lifecycle.github.io/requirements-management-software/requirements-management-for-startups.html
+- Excel vs RM Software: https://application-lifecycle.github.io/requirements-management-software/excel-vs-requirements-management-software.html
 - GitHub Repository: https://github.com/application-lifecycle/requirements-management-software
